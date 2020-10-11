@@ -1,0 +1,7 @@
+{
+    "version": "1",
+    "commands": {
+        "k8s:deploy": "kubectl apply -f k8s/ingress.yaml",
+        "k8s:destroy": "kubectl delete -f k8s/ingress.yaml"
+    }
+}
