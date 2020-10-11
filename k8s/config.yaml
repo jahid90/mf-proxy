@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: micro-frontend
+data:
+  navigation-server: "navigation"
+  portal-server: "portal"
